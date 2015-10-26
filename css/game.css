@@ -48,20 +48,20 @@ p {
 .lava          { background: url('http://vignette4.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f4/Electricity.gif/revision/latest?cb=20130820223236') center; 
 					background-size: 50px 50px; }
 .wall          { background: url('http://designstacks.net/content_images/AdobePhotoshop/DrawingTechniques/metal/metal5.jpg');   }
-.eye  { background: url('eye.png') center; 
+.eye  { background: url('http://cdn.staticneo.com/w/minecraft/thumb/3/30/Eye_of_Ender.png/100px-Eye_of_Ender.png') center; 
 		background-size: 28px, 28px; }
 .spike {background: linear-gradient(#7A0000, red) center;
 		border-radius: 25px; }
 .spike2 { background: linear-gradient(#7A0000, red) center;
 		border-radius: 25px; }
 .actor  { position: absolute;  }
-.coin   { background: url('2.png') no-repeat center center;
+.coin   { background: url('http://i34.tinypic.com/dcx3me.png') no-repeat center center;
 			background-size: 22px 22px;}
-.player { background: url('astro.png') center; 
+.player { background: url('http://orig03.deviantart.net/e1f1/f/2015/044/0/f/astronaut_by_balduranne-d7fdpad.png') center; 
 			background-size: 45px 54px; }
-.enemy { background: url('1.png') no-repeat center; 
+.enemy { background: url('http://hydra-media.cursecdn.com/terraria.gamepedia.com/5/5a/Nebula_Floater.png?version=f98d3657619a168706ae0879e9c73b29') no-repeat center; 
 			background-size: 30px 40px; }
-.enemy2 { background: url('3.png') no-repeat center; 
+.enemy2 { background: url('http://hydra-media.cursecdn.com/terraria.gamepedia.com/5/5a/Nebula_Floater.png?version=f98d3657619a168706ae0879e9c73b29') no-repeat center; 
 			background-size: 30px 40px; }
 			
 .game {
