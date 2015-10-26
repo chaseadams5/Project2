@@ -1,0 +1,43 @@
+<!doctype html>
+<script src="code/game.js"></script>
+<script src="code/game_levels.js"></script>
+
+<link rel="stylesheet" href="css/game.css">
+<body>
+  <div id="backStart" class="backStart"><br><br><p>Steve's Space Adventure:</p><img src="http://orig03.deviantart.net/e1f1/f/2015/044/0/f/astronaut_by_balduranne-d7fdpad.png" height="60" width="50">
+	<br><br><br>Collect all of the green fuel orbs <br><br>from the dying space station<br><br>to power your ship and get back home!<br><br><br>
+  <input id="startButton" class="butt" type="button" value="Start" onclick="myFunction()"></button>
+  </div>
+  <div id="endFinish" class="backStart" style="height: 0px; width: 0px; visibility: collapse">
+    Game Over...<br><br><img src="http://orig03.deviantart.net/e1f1/f/2015/044/0/f/astronaut_by_balduranne-d7fdpad.png" height="60" width="50"><br><br>Try Again?<br><br><input id="restartButton" class="butt" type="button" value="Restart" onclick="myFunction()"></button>
+  </div>
+
+  
+  <script>
+  var button = document.getElementById('startButton');
+  var backStart = document.getElementById('backStart');
+  var end = document.getElementById('endFinish');
+  var restartButton = document.getElementById('restartButton');
+  
+
+  
+  function myFunction(){
+    button.style.visibility = "collapse";
+	button.style.height = 0;
+	button.style.width = 0;
+	
+	backStart.style.visibility = "collapse";
+	backStart.style.height = 0;
+	backStart.style.width = 0;
+	
+	if(runGame(GAME_LEVELS, DOMDisplay) != 0){
+		
+		end.style.visibility = "visible";
+		
+		restartButton.style.visibility = "visible";
+		
+	}
+  }
+
+  </script>
+</body>
